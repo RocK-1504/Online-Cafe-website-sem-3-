@@ -92,3 +92,27 @@ The project uses React for frontend, Node.js + Express for backend, and MongoDB 
 - users
 
 - messages
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](./screenshots/home.png)
+
+### ☕ Menu Page
+![Menu](./screenshots/menu.png)
+
+### 🛒 Cart Page
+![Cart](./screenshots/cart.png)
+
+### 📦 Orders Page
+![Orders](./screenshots/orders.png)
+
+### 🔐 Login Page
+![Login](./screenshots/login.png)
+
+### 💬 Contact Page
+![Contact](./screenshots/contact.png)
+
+### 🗄️ MongoDB Database
+![Database](./screenshots/database.png)
+
