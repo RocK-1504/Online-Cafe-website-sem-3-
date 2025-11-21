@@ -28,69 +28,67 @@ The project uses React for frontend, Node.js + Express for backend, and MongoDB 
 
 - Contact form (name, email, phone, message)
 
-🛍️ Menu Features
+### 🛍️ Menu Features
 
-Menu displayed from MongoDB
+- Menu displayed from MongoDB
 
-Uses /images/ stored in React public folder
+- Uses /images/ stored in React public folder
 
-Insert menu items using insertMany() or /bulk route
+### 📦 Orders
 
-📦 Orders
+- Place an order
 
-Place an order
+- Store order with:
 
-Store order with:
+- items
 
-items
+- total price
 
-total price
+- user name
 
-user name
+- timestamp
 
-timestamp
+### 💬 Contact Messages
 
-💬 Contact Messages
+- Contact form entries saved in messages collection
 
-Contact form entries saved in messages collection
+### 🛠️ Tech Stack
+- Frontend
 
-🛠️ Tech Stack
-Frontend
+- React.js
 
-React.js
+- React Router
 
-React Router
+- Axios
 
-Axios
+- Vanilla CSS
 
-Vanilla CSS
+- Context API (Cart + Favorites)
 
-Context API (Cart + Favorites)
+- Backend
 
-Backend
+- Node.js
 
-Node.js
+- Express.js
 
-Express.js
+- MongoDB Node Driver (MongoClient)
 
-MongoDB Node Driver (MongoClient)
+- CORS
 
-CORS
+- REST APIs
 
-REST APIs
+- Database
 
-Database
+- MongoDB Compass
 
-MongoDB Compass
+- dailygrind database
 
-dailygrind database
+### Collections:
 
-Collections:
+- menu
 
-menu
+- orders
 
-orders
+- users
 
-users
-
-messages
+- messages
