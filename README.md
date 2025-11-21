@@ -7,12 +7,12 @@ A Full-Stack MERN Project (Without Mongoose – Uses MongoClient)
 An online café ordering system where users can browse the menu, add items to cart, place orders, send contact messages, mark favorites, and view previous orders.
 The project uses React for frontend, Node.js + Express for backend, and MongoDB Compass for the database.
 
-🚀 Features
+## 🚀 Features
 👤 User Features
 
--User login using name + mobile number
+- User login using name + mobile number
 
--View café menu with images
+- View café menu with images
 
 -Add items to cart
 
