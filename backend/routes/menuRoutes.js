@@ -2,18 +2,19 @@ const express = require("express");
 
 module.exports = function (db) {
   const router = express.Router();
-  const menu = db.collection("menu");
+  const menu = db.collection("menuitems");
 
   router.get("/", async (req, res) => {
-    const items = await menu.find().toArray();
-    res.json(items);
+    const data = await menu.find().toArray();
+    res.json(data);
   });
-  
-  router.post("/bulk", async (req, res) => {
-    await menu.insertMany(req.body);
-    res.json({ message: "Inserted" });
+
+  router.post("/", async (req, res) => {
+    await menu.insertOne(req.body);
+    res.json({ message: "Menu item added" });
   });
 
   return router;
 };
+
 
