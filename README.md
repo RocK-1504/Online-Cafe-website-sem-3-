@@ -8,7 +8,7 @@ An online café ordering system where users can browse the menu, add items to ca
 The project uses React for frontend, Node.js + Express for backend, and MongoDB Compass for the database.
 
 ## 🚀 Features
-##👤 User Features
+### 👤 User Features
 
 - User login using name + mobile number
 
