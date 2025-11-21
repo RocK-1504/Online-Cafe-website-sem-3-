@@ -8,25 +8,25 @@ An online café ordering system where users can browse the menu, add items to ca
 The project uses React for frontend, Node.js + Express for backend, and MongoDB Compass for the database.
 
 ## 🚀 Features
-👤 User Features
+##👤 User Features
 
 - User login using name + mobile number
 
 - View café menu with images
 
--Add items to cart
+- Add items to cart
 
--Increase/decrease item quantity
+- Increase/decrease item quantity
 
--Remove items
+- Remove items
 
--Place orders
+- Place orders
 
--View previous orders
+- View previous orders
 
--Add items to favorites
+- Add items to favorites
 
--Contact form (name, email, phone, message)
+- Contact form (name, email, phone, message)
 
 🛍️ Menu Features
 
