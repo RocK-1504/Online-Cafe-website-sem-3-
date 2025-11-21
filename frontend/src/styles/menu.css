@@ -1,0 +1,103 @@
+.menu-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.menu-container h2 {
+  font-size: 28px;
+  color: #222;
+}
+
+.menu-subtitle {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #555;
+}
+
+.menu-grid {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: 0.2s ease;
+  padding: 15px;
+  background: white;
+}
+
+.menu-card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.menu-card-body h3 {
+  margin: 0;
+  color: #333;
+}
+
+.menu-desc {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.menu-price {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+
+.add-btn {
+  margin-top: 15px;
+  background: #ff9800;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.add-btn:hover {
+  background: #e68900;
+}
+
+.menu-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.fav-star {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.fav-star.active {
+  color: gold;
+}
+
+.menu-card {
+  position: relative;
+}
+
+.fav-toggle {
+  margin-bottom: 15px;
+  padding: 8px 15px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}

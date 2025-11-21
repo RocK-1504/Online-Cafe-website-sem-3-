@@ -1,0 +1,31 @@
+.navbar {
+  background: #222;
+  padding: 15px 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.cart-btn {
+  background: #ff9800;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
