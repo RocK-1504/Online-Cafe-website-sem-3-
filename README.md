@@ -101,6 +101,9 @@ The project uses React for frontend, Node.js + Express for backend, and MongoDB 
 ### ☕ Menu Page
 ![Menu](./screenshots/menu.png)
 
+### ⭐ Favourites
+![Fav](./screenshots/fav.png)
+
 ### 🛒 Cart Page
 ![Cart](./screenshots/cart.png)
 
@@ -113,6 +116,6 @@ The project uses React for frontend, Node.js + Express for backend, and MongoDB 
 ### 💬 Contact Page
 ![Contact](./screenshots/contact.png)
 
-### 🗄️ MongoDB Database
-![Database](./screenshots/database.png)
+### 🏨 About Page
+![About](./screenshots/about.png)
 
